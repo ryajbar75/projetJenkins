@@ -26,7 +26,7 @@ pipeline {
             steps {
                 // Exécuter les tests avec dotnet
                 script {
-                    sh 'dotnet test'
+                    sh 'dotnet test SQLi.Challenge/SQLi.Challenge.sln'
                 }
             }
         }
@@ -35,7 +35,7 @@ pipeline {
             steps {
                 // Publier le projet .NET
                 script {
-                    sh 'dotnet publish -c Release -o out'
+                    sh 'dotnet publish SQLi.Challenge/SQLi.Challenge.sln -c Release -o out'
                 }
             }
         }
