@@ -1,9 +1,10 @@
 pipeline {
     agent any
 
-    tools {
-        dotnet 'dotnet6'  
+    environment {
+        PATH = "/usr/bin/dotnet:$PATH"  // Ajouter dotnet à votre PATH si ce n'est pas déjà fait
     }
+
 
     stages {
         stage('Checkout') {
