@@ -5,12 +5,11 @@ pipeline {
         PATH = "/usr/bin/dotnet:$PATH"  // Ajouter dotnet à votre PATH si ce n'est pas déjà fait
     }
 
-
     stages {
         stage('Checkout') {
             steps {
                 // Cloner votre dépôt Git
-                git branch: 'main', url: 'https://github.com/ryajbar75/projetJenkins.git'
+                git credentialsId: 'jenkinsgit', branch: 'main', url: 'https://github.com/ryajbar75/projetJenkins.git'
             }
         }
 
