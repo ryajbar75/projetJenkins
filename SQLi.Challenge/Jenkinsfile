@@ -1,0 +1,23 @@
+pipeline {
+    agent any
+    tools {
+        dotnet 'dotnet6' // Nom de l'installation dans Global Tool Configuration
+    }
+    stages {
+        stage('Restore') {
+            steps {
+                sh 'dotnet restore'
+            }
+        }
+        stage('Build') {
+            steps {
+                sh 'dotnet build --configuration Release'
+            }
+        }
+        stage('Test') {
+            steps {
+                sh 'dotnet test'
+            }
+        }
+    }
+}
