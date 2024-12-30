@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "F9ZoRFVRq12r1mfBKgn9Ujgwk2K8XY1lUW8eLZaqR1k=",
+  "Source": "SQLi.Challenge",
+  "BasePath": "_content/SQLi.Challenge",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

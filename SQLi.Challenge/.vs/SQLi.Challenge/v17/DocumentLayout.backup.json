@@ -1,0 +1,189 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Rafik YAJBAR\\source\\repos\\SQLi.Challenge\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{468E93CF-5AB2-4529-A9AF-60695E71E01A}|SQLi.Challenge\\SQLi.Challenge.csproj|c:\\users\\rafik yajbar\\source\\repos\\sqli.challenge\\sqli.challenge\\tests\\services\\bookservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{468E93CF-5AB2-4529-A9AF-60695E71E01A}|SQLi.Challenge\\SQLi.Challenge.csproj|solutionrelative:sqli.challenge\\tests\\services\\bookservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{468E93CF-5AB2-4529-A9AF-60695E71E01A}|SQLi.Challenge\\SQLi.Challenge.csproj|c:\\users\\rafik yajbar\\source\\repos\\sqli.challenge\\sqli.challenge\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{468E93CF-5AB2-4529-A9AF-60695E71E01A}|SQLi.Challenge\\SQLi.Challenge.csproj|solutionrelative:sqli.challenge\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{468E93CF-5AB2-4529-A9AF-60695E71E01A}|SQLi.Challenge\\SQLi.Challenge.csproj|c:\\users\\rafik yajbar\\source\\repos\\sqli.challenge\\sqli.challenge\\models\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{468E93CF-5AB2-4529-A9AF-60695E71E01A}|SQLi.Challenge\\SQLi.Challenge.csproj|solutionrelative:sqli.challenge\\models\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{468E93CF-5AB2-4529-A9AF-60695E71E01A}|SQLi.Challenge\\SQLi.Challenge.csproj|c:\\users\\rafik yajbar\\source\\repos\\sqli.challenge\\sqli.challenge\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{468E93CF-5AB2-4529-A9AF-60695E71E01A}|SQLi.Challenge\\SQLi.Challenge.csproj|solutionrelative:sqli.challenge\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{468E93CF-5AB2-4529-A9AF-60695E71E01A}|SQLi.Challenge\\SQLi.Challenge.csproj|c:\\users\\rafik yajbar\\source\\repos\\sqli.challenge\\sqli.challenge\\services\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{468E93CF-5AB2-4529-A9AF-60695E71E01A}|SQLi.Challenge\\SQLi.Challenge.csproj|solutionrelative:sqli.challenge\\services\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{468E93CF-5AB2-4529-A9AF-60695E71E01A}|SQLi.Challenge\\SQLi.Challenge.csproj|c:\\users\\rafik yajbar\\source\\repos\\sqli.challenge\\sqli.challenge\\repositories\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{468E93CF-5AB2-4529-A9AF-60695E71E01A}|SQLi.Challenge\\SQLi.Challenge.csproj|solutionrelative:sqli.challenge\\repositories\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{468E93CF-5AB2-4529-A9AF-60695E71E01A}|SQLi.Challenge\\SQLi.Challenge.csproj|c:\\users\\rafik yajbar\\source\\repos\\sqli.challenge\\sqli.challenge\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{468E93CF-5AB2-4529-A9AF-60695E71E01A}|SQLi.Challenge\\SQLi.Challenge.csproj|solutionrelative:sqli.challenge\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{468E93CF-5AB2-4529-A9AF-60695E71E01A}|SQLi.Challenge\\SQLi.Challenge.csproj|c:\\users\\rafik yajbar\\source\\repos\\sqli.challenge\\sqli.challenge\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{468E93CF-5AB2-4529-A9AF-60695E71E01A}|SQLi.Challenge\\SQLi.Challenge.csproj|solutionrelative:sqli.challenge\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{468E93CF-5AB2-4529-A9AF-60695E71E01A}|SQLi.Challenge\\SQLi.Challenge.csproj|c:\\users\\rafik yajbar\\source\\repos\\sqli.challenge\\sqli.challenge\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{468E93CF-5AB2-4529-A9AF-60695E71E01A}|SQLi.Challenge\\SQLi.Challenge.csproj|solutionrelative:sqli.challenge\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{468E93CF-5AB2-4529-A9AF-60695E71E01A}|SQLi.Challenge\\SQLi.Challenge.csproj|c:\\users\\rafik yajbar\\source\\repos\\sqli.challenge\\sqli.challenge\\viewmodels\\bookvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{468E93CF-5AB2-4529-A9AF-60695E71E01A}|SQLi.Challenge\\SQLi.Challenge.csproj|solutionrelative:sqli.challenge\\viewmodels\\bookvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\Rafik YAJBAR\\source\\repos\\SQLi.Challenge\\SQLi.Challenge\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "SQLi.Challenge\\Models\\Book.cs",
+              "ToolTip": "C:\\Users\\Rafik YAJBAR\\source\\repos\\SQLi.Challenge\\SQLi.Challenge\\Models\\Book.cs",
+              "RelativeToolTip": "SQLi.Challenge\\Models\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T22:58:27.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Data.cs",
+              "DocumentMoniker": "C:\\Users\\Rafik YAJBAR\\source\\repos\\SQLi.Challenge\\SQLi.Challenge\\Models\\Data.cs",
+              "RelativeDocumentMoniker": "SQLi.Challenge\\Models\\Data.cs",
+              "ToolTip": "C:\\Users\\Rafik YAJBAR\\source\\repos\\SQLi.Challenge\\SQLi.Challenge\\Models\\Data.cs",
+              "RelativeToolTip": "SQLi.Challenge\\Models\\Data.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T22:59:57.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IBookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Rafik YAJBAR\\source\\repos\\SQLi.Challenge\\SQLi.Challenge\\Repositories\\IBookRepository.cs",
+              "RelativeDocumentMoniker": "SQLi.Challenge\\Repositories\\IBookRepository.cs",
+              "ToolTip": "C:\\Users\\Rafik YAJBAR\\source\\repos\\SQLi.Challenge\\SQLi.Challenge\\Repositories\\IBookRepository.cs",
+              "RelativeToolTip": "SQLi.Challenge\\Repositories\\IBookRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T22:58:33.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "C:\\Users\\Rafik YAJBAR\\source\\repos\\SQLi.Challenge\\SQLi.Challenge\\Services\\BookService.cs",
+              "RelativeDocumentMoniker": "SQLi.Challenge\\Services\\BookService.cs",
+              "ToolTip": "C:\\Users\\Rafik YAJBAR\\source\\repos\\SQLi.Challenge\\SQLi.Challenge\\Services\\BookService.cs",
+              "RelativeToolTip": "SQLi.Challenge\\Services\\BookService.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowDkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T22:58:38.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IBookService.cs",
+              "DocumentMoniker": "C:\\Users\\Rafik YAJBAR\\source\\repos\\SQLi.Challenge\\SQLi.Challenge\\Services\\IBookService.cs",
+              "RelativeDocumentMoniker": "SQLi.Challenge\\Services\\IBookService.cs",
+              "ToolTip": "C:\\Users\\Rafik YAJBAR\\source\\repos\\SQLi.Challenge\\SQLi.Challenge\\Services\\IBookService.cs",
+              "RelativeToolTip": "SQLi.Challenge\\Services\\IBookService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T22:58:48.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\Rafik YAJBAR\\source\\repos\\SQLi.Challenge\\SQLi.Challenge\\Tests\\Services\\BookServiceTests.cs",
+              "RelativeDocumentMoniker": "SQLi.Challenge\\Tests\\Services\\BookServiceTests.cs",
+              "ToolTip": "C:\\Users\\Rafik YAJBAR\\source\\repos\\SQLi.Challenge\\SQLi.Challenge\\Tests\\Services\\BookServiceTests.cs",
+              "RelativeToolTip": "SQLi.Challenge\\Tests\\Services\\BookServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T22:58:52.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Rafik YAJBAR\\source\\repos\\SQLi.Challenge\\SQLi.Challenge\\Repositories\\BookRepository.cs",
+              "RelativeDocumentMoniker": "SQLi.Challenge\\Repositories\\BookRepository.cs",
+              "ToolTip": "C:\\Users\\Rafik YAJBAR\\source\\repos\\SQLi.Challenge\\SQLi.Challenge\\Repositories\\BookRepository.cs",
+              "RelativeToolTip": "SQLi.Challenge\\Repositories\\BookRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T22:58:34.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\Rafik YAJBAR\\source\\repos\\SQLi.Challenge\\SQLi.Challenge\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "SQLi.Challenge\\Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\Rafik YAJBAR\\source\\repos\\SQLi.Challenge\\SQLi.Challenge\\Controllers\\BookController.cs",
+              "RelativeToolTip": "SQLi.Challenge\\Controllers\\BookController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowBYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T22:58:19.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Rafik YAJBAR\\source\\repos\\SQLi.Challenge\\SQLi.Challenge\\Program.cs",
+              "RelativeDocumentMoniker": "SQLi.Challenge\\Program.cs",
+              "ToolTip": "C:\\Users\\Rafik YAJBAR\\source\\repos\\SQLi.Challenge\\SQLi.Challenge\\Program.cs",
+              "RelativeToolTip": "SQLi.Challenge\\Program.cs",
+              "ViewState": "AgIAAAAAAACQqqrSkHQPwA0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T22:59:32.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BookVM.cs",
+              "DocumentMoniker": "C:\\Users\\Rafik YAJBAR\\source\\repos\\SQLi.Challenge\\SQLi.Challenge\\ViewModels\\BookVM.cs",
+              "RelativeDocumentMoniker": "SQLi.Challenge\\ViewModels\\BookVM.cs",
+              "ToolTip": "C:\\Users\\Rafik YAJBAR\\source\\repos\\SQLi.Challenge\\SQLi.Challenge\\ViewModels\\BookVM.cs",
+              "RelativeToolTip": "SQLi.Challenge\\ViewModels\\BookVM.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T22:59:29.665Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
