@@ -17,7 +17,7 @@ pipeline {
             steps {
                 // Construire le projet .NET
                 script {
-                    sh 'dotnet build'
+                    sh 'dotnet build SQLi.Challenge/SQLi.Challenge.sln'
                 }
             }
         }
