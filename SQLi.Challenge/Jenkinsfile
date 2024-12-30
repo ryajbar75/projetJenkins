@@ -1,22 +1,42 @@
 pipeline {
     agent any
+
     tools {
-        dotnet 'dotnet6' // Nom de l'installation dans Global Tool Configuration
+        dotnet 'dotnet6'  
     }
+
     stages {
-        stage('Restore') {
+        stage('Checkout') {
             steps {
-                sh 'dotnet restore'
+                // Cloner votre dépôt Git
+                git 'https://github.com/ryajbar75/projetJenkins.git'
             }
         }
+
         stage('Build') {
             steps {
-                sh 'dotnet build --configuration Release'
+                // Construire le projet .NET
+                script {
+                    sh 'dotnet build'
+                }
             }
         }
+
         stage('Test') {
             steps {
-                sh 'dotnet test'
+                // Exécuter les tests avec dotnet
+                script {
+                    sh 'dotnet test'
+                }
+            }
+        }
+
+        stage('Publish') {
+            steps {
+                // Publier le projet .NET
+                script {
+                    sh 'dotnet publish -c Release -o out'
+                }
             }
         }
     }
