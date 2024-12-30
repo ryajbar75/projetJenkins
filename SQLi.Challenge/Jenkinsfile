@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Cloner votre dépôt Git
-                git 'https://github.com/ryajbar75/projetJenkins.git'
+                git branch: 'main', url: 'https://github.com/ryajbar75/projetJenkins.git'
             }
         }
 
