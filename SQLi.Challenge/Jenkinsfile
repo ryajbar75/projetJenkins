@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         PATH = "/usr/bin/dotnet:$PATH"  // Ajouter dotnet à votre PATH si ce n'est pas déjà fait
-        DOCKER_IMAGE_NAME = "portainer/portainer-ce" // Nom de l'image Docker à utiliser
+        DOCKER_IMAGE_NAME = "gestion-bib" // Nom de l'image Docker à utiliser
         DOCKER_TAG = "2.21.5" // Tag de l'image Docker
         REGISTRY = "docker.io" // Docker registry, changez selon votre besoin
         DOCKER_CREDENTIALS_ID = "dockerhub-credentials" // ID des credentials pour Docker Hub
