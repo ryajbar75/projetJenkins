@@ -49,7 +49,7 @@ pipeline {
                 // Construire l'image Docker
                 script {
                     sh '''
-                        docker build -t ${DOCKER_IMAGE_NAME}:latest -f SQLi.Challenge/Dockerfile.
+                        docker build -t ${DOCKER_IMAGE_NAME}:latest -f SQLi.Challenge/Dockerfile .
                         
                     '''
                 }
