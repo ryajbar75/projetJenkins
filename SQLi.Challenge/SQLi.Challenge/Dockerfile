@@ -8,7 +8,7 @@ WORKDIR /src
 COPY SQLi.Challenge/SQLi.Challenge.csproj SQLi.Challenge/
 
 # Restaurer les dépendances
-RUN dotnet restore "SQLi.Challenge/SQLi.Challenge.csproj"
+RUN ls -al /src/SQLi.Challenge && dotnet restore "SQLi.Challenge/SQLi.Challenge.csproj"
 
 # Copier le reste des fichiers du projet
 COPY . .
