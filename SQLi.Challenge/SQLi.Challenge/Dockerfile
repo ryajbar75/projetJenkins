@@ -1,32 +1,34 @@
-# Étape 1 : Utiliser l'image de base de .NET SDK pour la compilation
+# Étape de construction avec .NET SDK
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 
-# Définir le répertoire de travail pour la compilation
-WORKDIR /src
-
-# Copier le fichier .csproj dans le conteneur
-COPY SQLi.Challenge/SQLi.Challenge/SQLi.Challenge.csproj SQLi.Challenge/
-
-# Restaurer les dépendances
-RUN ls -al /src/SQLi.Challenge && dotnet restore "SQLi.Challenge/SQLi.Challenge.csproj"
-
-# Copier le reste des fichiers du projet
-COPY . .
-
-# Publier l'application dans le répertoire /app
-RUN dotnet publish "SQLi.Challenge/SQLi.Challenge.csproj" -c Release -o /app
-
-# Étape 2 : Utiliser l'image de base runtime pour exécuter l'application
-FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS runtime
-
-# Définir le répertoire de travail pour l'exécution
+# Définir le répertoire de travail
 WORKDIR /app
 
-# Copier les fichiers publiés depuis l'étape de build
-COPY --from=build /app .
+# Copier les fichiers du projet dans le conteneur
+COPY . .
 
-# Exposer le port utilisé par l'application
+# Restaurer les dépendances et construire le projet
+RUN dotnet restore SQLi.Challenge/SQLi.Challenge.sln
+RUN dotnet build SQLi.Challenge/SQLi.Challenge.sln -c Release -o /app/build
+
+# Publier le projet pour la production
+RUN dotnet publish SQLi.Challenge/SQLi.Challenge.sln -c Release -o /app/publish
+
+# Étape finale avec .NET ASP.NET Runtime (plus léger que le SDK)
+FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
+
+# Définir le répertoire de travail
+WORKDIR /app
+
+# Copier les fichiers publiés depuis la phase de construction
+COPY --from=build /app/publish .
+
+# Exposer le port que l'application écoute
 EXPOSE 80
 
-# Démarrer l'application
+# Définir un utilisateur non-root pour des raisons de sécurité
+RUN adduser --disabled-password --gecos '' appuser && chown -R appuser /app
+USER appuser
+
+# Définir le point d'entrée de l'application
 ENTRYPOINT ["dotnet", "SQLi.Challenge.dll"]
