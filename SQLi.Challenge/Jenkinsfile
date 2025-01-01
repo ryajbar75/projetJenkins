@@ -17,11 +17,20 @@ pipeline {
             }
         }
 
+        stage('Restore Dependencies') {
+            steps {
+                // Restaurer les dépendances .NET
+                script {
+                    sh 'dotnet restore SQLi.Challenge/SQLi.Challenge.sln'
+                }
+            }
+        }
+
         stage('Build') {
             steps {
                 // Construire le projet .NET
                 script {
-                    sh 'dotnet build SQLi.Challenge/SQLi.Challenge.sln'
+                    sh 'dotnet build SQLi.Challenge/SQLi.Challenge.sln --configuration Release'
                 }
             }
         }
@@ -30,7 +39,7 @@ pipeline {
             steps {
                 // Exécuter les tests avec dotnet
                 script {
-                    sh 'dotnet test SQLi.Challenge/SQLi.Challenge.sln'
+                    sh 'dotnet test SQLi.Challenge/SQLi.Challenge.sln --configuration Release'
                 }
             }
         }
