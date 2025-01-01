@@ -70,7 +70,9 @@ pipeline {
                 script {
                     withCredentials([usernamePassword(credentialsId: "dockerid", usernameVariable: 'DOCKER_USERNAME', passwordVariable: 'DOCKER_PASSWORD')]) {
                         sh '''
+                            
                             echo $DOCKER_PASSWORD | docker login -u $DOCKER_USERNAME --password-stdin
+                            docker tag ${DOCKER_IMAGE_NAME}:latest "$DOCKER_USERNAME"/${DOCKER_IMAGE_NAME}:latest
                             docker push "$DOCKER_USERNAME"/${DOCKER_IMAGE_NAME}:${DOCKER_TAG}
                         '''
                     }
