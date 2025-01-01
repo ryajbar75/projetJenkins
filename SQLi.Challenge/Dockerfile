@@ -1,22 +1,27 @@
+# Utilisez l'image de base .NET
+FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
+WORKDIR /app
+EXPOSE 80
+
+# Ajoutez l'image SDK pour la compilation
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
 
-# Copier le fichier .csproj
-COPY SQLi.Challenge.csproj SQLi.Challenge/
+# Copier le fichier .csproj (ajustez le chemin en fonction de votre structure)
+COPY SQLi.Challenge/SQLi.Challenge.csproj SQLi.Challenge/
 
+# Restaurer les dépendances
 RUN dotnet restore "SQLi.Challenge/SQLi.Challenge.csproj"
 
-# Copier tout le reste
+# Copier tous les fichiers source
 COPY . .
 
-# Construire le projet
-RUN dotnet build "SQLi.Challenge/SQLi.Challenge.csproj" -c Release -o /app/build
+# Publier l'application
+WORKDIR /src/SQLi.Challenge
+RUN dotnet publish "SQLi.Challenge.csproj" -c Release -o /app/publish
 
-# Publier le projet
-RUN dotnet publish "SQLi.Challenge/SQLi.Challenge.csproj" -c Release -o /app/publish
-
-# Utiliser l'image de base .NET pour exécuter l'application
-FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS final
+# Finaliser l'image
+FROM base AS final
 WORKDIR /app
 COPY --from=build /app/publish .
 ENTRYPOINT ["dotnet", "SQLi.Challenge.dll"]
