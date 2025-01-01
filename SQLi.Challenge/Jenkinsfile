@@ -58,7 +58,7 @@ pipeline {
                 // Construire l'image Docker
                 script {
                     sh '''
-                    docker build -t rafi75${DOCKER_IMAGE_NAME}:${DOCKER_TAG} -f SQLi.Challenge/SQLi.Challenge/Dockerfile .
+                    docker build -t rafi75/${DOCKER_IMAGE_NAME}:${DOCKER_TAG} -f SQLi.Challenge/SQLi.Challenge/Dockerfile .
                     '''
                 }
             }
