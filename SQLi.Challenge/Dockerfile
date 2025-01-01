@@ -8,7 +8,7 @@ FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
 
 # Copier le fichier .csproj (ajustez le chemin en fonction de votre structure)
-COPY SQLi.Challenge/SQLi.Challenge.csproj SQLi.Challenge/
+COPY SQLi.Challenge/SQLi.Challenge/SQLi.Challenge.csproj SQLi.Challenge/
 
 # Restaurer les dépendances
 RUN dotnet restore "SQLi.Challenge/SQLi.Challenge.csproj"
